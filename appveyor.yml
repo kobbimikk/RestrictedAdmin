@@ -27,7 +27,7 @@ install:
 
 build_script:
   - msbuild
-  - 7z a radminbuild.zip  %APPVEYOR_BUILD_FOLDER%\RestricedAdmin\bin\*
+  - 7z a radminbuild.zip  %APPVEYOR_BUILD_FOLDER%\RestricedAdmin\obj\*
 #  - ps: Start-Sleep -s 3609
   
 artifacts:
